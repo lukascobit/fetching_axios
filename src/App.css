@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(59, 84, 122);
+  color: aliceblue;
+}
+.comment{
+  padding-top: 0%;
+  margin-top: 0%;
+  background-color: rgb(58, 76, 90);
+  color: aliceblue;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin: 1vw;
+  border: black 1px solid;
+}
+.comment:nth-child(3n+0){
+  background-color:rgb(47, 89, 119); ;
+}
+.comment:nth-child(2n+0){
+  background-color:rgb(82, 96, 107); ;
+}
+.comment > h1, h2 {
+  padding: 0%;
+  margin: 0%;
+}
+.name{
+  color: rgb(108, 187, 240);
+}
+.name:hover{
+  color: rgb(153, 153, 153);
+  cursor:help;
+}
+.comment:nth-child(3n+0) > .name{
+  color: rgb(223, 124, 236);
+}
+.comment:nth-child(2n+0) > .name{
+  color: rgb(168, 221, 221);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email{
+  color: rgba(255, 255, 255, 0.527)
 }
